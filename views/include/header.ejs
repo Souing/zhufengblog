@@ -16,10 +16,25 @@
     <!--放置导航-->
     <div class="collapse navbar-collapse" id="menus">
         <ul class="nav navbar-nav">
+            <%
+            if(!user){
+            %>
             <li><a href="/users/reg">注册</a></li>
             <li><a href="/users/login">登陆</a></li>
+            <%
+            }
+            %>
+
+            <%
+            if(user){
+             %>
             <li><a href="/articles/add">发表文章</a></li>
             <li><a href="/users/logout">退出</a></li>
+            <%
+            }
+            %>
+
         </ul>
     </div>
+    <div><%=user?user.username:''%></div>
 </nav>
