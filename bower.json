@@ -1,0 +1,22 @@
+{
+  "name": "zhufengblog",
+  "description": "",
+  "main": "",
+  "authors": [
+    "zhangrenyang-t510 <zhang_renyang@>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/zhufengnodejs/zhufengblog",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
