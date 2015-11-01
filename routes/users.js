@@ -13,7 +13,4 @@ router.get('/login', function(req, res, next) {
 
 //登出
 router.get('/logout', function(req, res, next) {
-
-});
-
 module.exports = router;
